@@ -12,8 +12,9 @@
       <title>Customer Satisfactory Survey</title>
    </head>
    
-<style>
- 
+   <style>
+   
+    
 /* header banner image styling */
 
  #banner {
@@ -157,8 +158,6 @@
      height: 35px;
      border-radius: 5px;
      background-color: white;
-
-   
    
 }
 /* credit name "Designed by Manzoo AHmed" styling */
@@ -382,7 +381,7 @@
      transform: translate(-50%, -50%);
      letter-spacing: 2;
      left: 50%;
-     top: 323%;
+     top: 298%;
      font-family: "Clip";
      text-transform: uppercase;
      font-size: 20px;
@@ -518,13 +517,14 @@
 /* Sumbit button styling */
  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
  input[type="submit"] {
-     width: 320px;
-     height: 35px;
-     margin-top: 20px;
+     position: absolute;
+     padding: 10px 100px;
+     left: 40%;
+     top: 250%;
      border-radius: 10px;
      background-color: #00008B;
      color: white;
-     font-size: 18px;
+     font-size: 20px;
 }
 
 /* styling profile porto */
@@ -747,11 +747,11 @@ to align it properly */
 }
 
 </style>
-
+   
    <!--- Header --->
    
    <header>
-      <img src="New Project.png" id="banner" alt="Customer Relation">
+      <img src="C:\Users\Farah\Desktop\Survey Site\New Project.png" id="banner" alt="Customer Relation">
       <div class="frame">
          <button class="custom-btn btn">Customer Satisfactory Survey</button>
       </div>
@@ -833,8 +833,10 @@ to align it properly */
       </div>
       
       <!-- Content -->
+      <div class="flexbox-container" style="display:flex;">
       
-      <div id="body" style="padding:25px; width: 1280px;">
+      <div id="body" style="padding:25px; width: 1280px; flex:1;">
+      
          <form>
             <h3>Please take a moment to fill out this survey</h3>
             <div class="box">
@@ -989,23 +991,27 @@ to align it properly */
             <option value="Yes">Yes</option>
             <option value="No">No</option>
          </select>
-         <div class="submit">
+      
+      
+      </div>
+      </div>
+      <div class="submit" style>
             <form>
                <input type="submit" action= "file:///C:/Users/Farah/Desktop/Survey%20Site/Survey.html" value="Submit" />
             </form>
          </div>
-      </div>
+      
       <div class="prof">
 
     <div class="porto">
-       
+    
 
-        <img src="prof pic.png">
+        <img src="C:\Users\Farah\Desktop\Survey\prof pic.png">
       
       
        <h3 id="name">Manzoo Ahmed</h3>
       
-      <h5>Manzoo Ahmed is a self-taught front-end developer. He primarily focuses on writing clean, elegant and efficient code. He is proficient in HTML, CSS and JavaScript. He is also a junior programmer in Python and Java.</h5>
+      <h5>Manzoo Ahmed is a self-taught front-end developer. He primarily focuses on writing clean, elegant and efficient code. He is proficient in HTML, CSS and JavaScript. He is also a beginner in Python and Java programming.</h5>
    
                 
   </div>
