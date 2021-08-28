@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<!-- Survey Web Front-End - Manzoo Ahmed -->
+
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lobster' />
+      <link href="https://fonts.googleapis.com/css2?family=Lato=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css" type="text/css" />
+      <title>Customer Satisfactory Survey</title>
+   </head>
+   
+   
+   <!--- Header --->
+   
+   <header>
+      <img src="C:\Users\Farah\Desktop\Survey Site\New Project.png" id="banner" alt="Customer Relation">
+      <div class="frame">
+         <button class="custom-btn btn">Customer Satisfactory Survey</button>
+      </div>
+   <!-- Nav Bar -->
+   
+      <div class="topnav">
+         <a href="#home">Home</a>
+         <a href="#news">News</a>
+         <a href="#contact">Contact</a>
+         <a href="#about">About</a>
+      </div>
+   </header>
+   
+   <!----Body -->
+   
+   <body>
+      <hr>
+      <p id="POC" >Designed By&nbsp;|&nbsp;Manzoo Ahmed</p>
+      <div class="credit">
+         <div class="sign">
+            <span class="fast-flicker">Thank&nbsp;</span>You&nbsp;<span class="flicker">For&nbsp;</span>Visiting
+         </div>
+      </div>
+      
+      <!-- Dropdown Menu -->
+      
+      <div class="drop">
+         <ul class="hList">
+            <li>
+               <a href="#click" class="menu">
+                  <h2 class="menu-title">animals &#711;</h2>
+                  <ul class="menu-dropdown">
+                     <li>cat</li>
+                     <li>dog</li>
+                     <li>horse</li>
+                     <li>cow</li>
+                     <li>pig</li>
+                  </ul>
+               </a>
+            </li>
+            <li>
+               <a href="#click" class="menu">
+                  <h2 class="menu-title menu-title_2nd">names &#711;</h2>
+                  <ul class="menu-dropdown">
+                     <li>Kevin</li>
+                     <li>Jim</li>
+                     <li>Andy</li>
+                  </ul>
+               </a>
+            </li>
+            <li>
+               <a href="#click" class="menu">
+                  <h2 class="menu-title menu-title_3rd">things &#711;</h2>
+                  <ul class="menu-dropdown">
+                     <li>bench</li>
+                     <li>pizza</li>
+                     <li>Honda CB125</li>
+                     <li>space</li>
+                     <li>black matter</li>
+                     <li>apple</li>
+                     <li>philodendron</li>
+                     <li>liver</li>
+                     <li>brass</li>
+                  </ul>
+               </a>
+            </li>
+            <li>
+               <a href="#click" class="menu">
+                  <h2 class="menu-title menu-title_4th">Movies &#711;</h2>
+                  <ul class="menu-dropdown">
+                     <li>Godzilla</li>
+                     <li>Man on Wire</li>
+                     <li>Spirited Away</li>
+                     <li>Interstellar</li>
+                  </ul>
+               </a>
+            </li>
+         </ul>
+      </div>
+      
+      <!-- Content -->
+      <div class="flexbox-container" style="display:flex;">
+      
+      <div id="body" style="padding:25px; width: 1280px; flex:1;">
+      
+         <form>
+            <h3>Please take a moment to fill out this survey</h3>
+            <div class="box">
+               <div class="register">
+                  <label for="fname"></label>
+                  <input id="username" type="text" name="fname" style="vertical-align: middle;" placeholder="First Name">
+                  <label for="lname"></label>
+                  <input id="username" type="text" name="lname" style="vertical-align: middle;" placeholder="Last Name">
+                  <label for="email"></label>
+                  <input id="username" type="email" name="email" style="vertical-align: middle;" placeholder="Email Address"> 
+               </div>
+               <div class="reset">
+                  <p>
+                     <input type="reset" style="vertical-align: middle; width: 300px; height: 35px; border-radius: 5px; background-color: blue; color: white;" value="Clear The Form">
+                  </p>
+               </div>
+            </div>
+            <h4>1. Gender</h4>
+            <label for="on">Male</label>
+            <input type="radio" name="onOff" value="on" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="on">Female</label>
+            <input type="radio" name="onOff" value="on" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="on">N/A</label>
+            <input type="radio" name="onOff" value="on" style="height:25px; width:25px; vertical-align: middle;">
+            <br> 
+         </form>
+         <form name="main_form" action="" method="GET">
+            <p>
+            <h4>2. Age</h4>
+            </p>
+            <label for="off">18-24</label>
+            <input id="off" type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="off">25-34</label>
+            <input type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="off">35-44</label>
+            <input type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <p>
+            <h4>3. What is your employment status?</h4>
+            </p>
+            <label for="off">Full-time employment</label>
+            <input type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="off">Part-time employment</label>
+            <input type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="off">Temporary or contract employment</label>
+            <input type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="off">Internship or apprenticeship</label>
+            <input type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br> 
+         </form>
+         <p>
+         <h4>3. Location (County)</h4>
+         </p>
+         <select name="country" style="height:30px; width:150px; border-radius: 10px; vertical-align: middle;font-size: 15px">
+            <option value="Baringo">Baringo</option>
+            <option value="Bomet">Bomet</option>
+            <option value="Bungoma">Bungoma</option>
+            <option value="Baringo">Baringo</option>
+            <option value="Busia">Busia</option>
+            <option value="Elgeyo Marakwet">Elgeyo Marakwet</option>
+            <option value="Embu">Embu</option>
+            <option value="Garissa">Garissa</option>
+            <option value="Homa Bay">Homa Bay</option>
+            <option value="Isiolo">Isiolo</option>
+            <option value="Kajiado">Kajiado</option>
+            <option value="Kakamega">Kakamega</option>
+            <option value="Kericho">Kericho</option>
+            <option value="Kiambu">Kiambu</option>
+            <option value="Kilifi">Kilifi</option>
+            <option value="Kirinyaga">Kirinyaga</option>
+            <option value="Kisii">Kisii</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Kitui">Kitui</option>
+            <option value="Kwale">Kwale</option>
+            <option value="Laikipia">Laikipia</option>
+            <option value="Lamu">Lamu</option>
+            <option value="Machakos">Machakos</option>
+            <option value="Makueni">Makueni</option>
+            <option value="Mandera">Mandera</option>
+            <option value="Marsabit">Marsabit</option>
+            <option value="Meru">Meru</option>
+            <option value="Migori">Migori</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Murang'a">Murang'a</option>
+            <option value="Nairobi City">Nairobi City</option>
+            <option value="Nakuru">Nakuru</option>
+            <option value="Nandi">Nandi</option>
+            <option value="Narok">Narok</option>
+            <option value="Nyamira">Nyamira</option>
+            <option value="Nyandarua">Nyandarua</option>
+            <option value="Nyeri">Nyeri</option>
+            <option value="Samburu">Samburu</option>
+            <option value="Siaya">Siaya</option>
+            <option value="Taita Taveta">Taita Taveta</option>
+            <option value="Tana River">Tana River</option>
+            <option value="Tharaka-Nithi">Tharaka-Nithi</option>
+            <option value="Trans Nzoia">Trans Nzoia</option>
+            <option value="Turkana">Turkana</option>
+            <option value="Uasin Gishu">Uasin Gishu</option>
+            <option value="Vihiga">Vihiga</option>
+            <option value="Wajir">Wajir</option>
+            <option value="West Pokot">West Pokot</option>
+         </select>
+         <p>
+         <h4>4. How satisfied were you with our service?</h4>
+         </p>
+         <form action="" method="GET">
+            <select name="selection" style="height:30px; width:130px; border-radius: 10px; vertical-align: middle;font-size: 15px;">
+               <option value="not satisfied">Not Satisfied</option>
+               <option value="satisfied">Satisfied</option>
+               <option value="very satified">Very Satisfied</option>
+            </select>
+         </form>
+         <form name="main_form" action="" method="POST">
+            <p>
+            <h4>5. Looking at the price of the Kaduda 4G phone, is the price high, low or about right?</h4>
+            </p>
+            <label for="on">Low</label>
+            <input type="radio" name="onOff" value="on" style="height:25px; width:25px; vertical-align: middle; font-size: 15px;">
+            <br>
+            <label for="on">About right</label>
+            <input type="radio" name="onOff" value="on" style="height:25px; width:25px; vertical-align: middle; font-size: 15px;">
+            <br>
+            <label for="on">High</label>
+            <input type="radio" name="onOff" value="on" style="height:25px; width:25px; vertical-align: middle; font-size: 15px;">
+            <br> 
+         </form>
+         <p>
+         <h4>6. Is this the first time you have used our service?</h4>
+         </p>
+         <select name="selection" style="height:30px; width:100px; border-radius: 10px; vertical-align: middle; font-size: 15px">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+         </select>
+         <p>
+         <h4>7. How long have you been using the product?</h4>
+         <textarea name="message" style="height:26px; width:50px; border-radius: 5px; vertical-align: middle;"></textarea>
+         <p>
+         <h4>8. If there was one new feature you could suggest, what would it be and why?</h4>
+         <textarea name="message" style="height:40px; width:300px; border-radius: 5px; vertical-align: middle;"></textarea>
+         <p>
+         <h4>Would you recommend us to a friend?</h4>
+         </p>
+         <select name="selection" style="height:30px; width:100px; vertical-align: middle; border-radius: 10px; font-size: 15px">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+         </select>
+         
+         
+      </div>
+      <div class="main" style="flex:1; padding-top: 30px;">
+       <form>
+            <h3>Please take a moment to fill out this survey</h3>
+            
+            <h4>1. Gender</h4>
+            <label for="on">Male</label>
+            <input type="radio" name="onOff" value="on" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="on">Female</label>
+            <input type="radio" name="onOff" value="on" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="on">N/A</label>
+            <input type="radio" name="onOff" value="on" style="height:25px; width:25px; vertical-align: middle;">
+            <br> 
+         </form>
+         <form name="main_form" action="" method="GET">
+            <p>
+            <h4>2. Age</h4>
+            </p>
+            <label for="off">18-24</label>
+            <input id="off" type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="off">25-34</label>
+            <input type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="off">35-44</label>
+            <input type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <p>
+            <h4>3. What is your employment status?</h4>
+            </p>
+            <label for="off">Full-time employment</label>
+            <input type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="off">Part-time employment</label>
+            <input type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="off">Temporary or contract employment</label>
+            <input type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br>
+            <label for="off">Internship or apprenticeship</label>
+            <input type="radio" name="onOff" value="off" style="height:25px; width:25px; vertical-align: middle;">
+            <br> 
+         </form>
+         <p>
+         <h4>3. Location (County)</h4>
+         </p>
+         <select name="country" style="height:30px; width:150px; border-radius: 10px; vertical-align: middle;font-size: 15px">
+            <option value="Baringo">Baringo</option>
+            <option value="Bomet">Bomet</option>
+            <option value="Bungoma">Bungoma</option>
+            <option value="Baringo">Baringo</option>
+            <option value="Busia">Busia</option>
+            <option value="Elgeyo Marakwet">Elgeyo Marakwet</option>
+            <option value="Embu">Embu</option>
+            <option value="Garissa">Garissa</option>
+            <option value="Homa Bay">Homa Bay</option>
+            <option value="Isiolo">Isiolo</option>
+            <option value="Kajiado">Kajiado</option>
+            <option value="Kakamega">Kakamega</option>
+            <option value="Kericho">Kericho</option>
+            <option value="Kiambu">Kiambu</option>
+            <option value="Kilifi">Kilifi</option>
+            <option value="Kirinyaga">Kirinyaga</option>
+            <option value="Kisii">Kisii</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Kitui">Kitui</option>
+            <option value="Kwale">Kwale</option>
+            <option value="Laikipia">Laikipia</option>
+            <option value="Lamu">Lamu</option>
+            <option value="Machakos">Machakos</option>
+            <option value="Makueni">Makueni</option>
+            <option value="Mandera">Mandera</option>
+            <option value="Marsabit">Marsabit</option>
+            <option value="Meru">Meru</option>
+            <option value="Migori">Migori</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Murang'a">Murang'a</option>
+            <option value="Nairobi City">Nairobi City</option>
+            <option value="Nakuru">Nakuru</option>
+            <option value="Nandi">Nandi</option>
+            <option value="Narok">Narok</option>
+            <option value="Nyamira">Nyamira</option>
+            <option value="Nyandarua">Nyandarua</option>
+            <option value="Nyeri">Nyeri</option>
+            <option value="Samburu">Samburu</option>
+            <option value="Siaya">Siaya</option>
+            <option value="Taita Taveta">Taita Taveta</option>
+            <option value="Tana River">Tana River</option>
+            <option value="Tharaka-Nithi">Tharaka-Nithi</option>
+            <option value="Trans Nzoia">Trans Nzoia</option>
+            <option value="Turkana">Turkana</option>
+            <option value="Uasin Gishu">Uasin Gishu</option>
+            <option value="Vihiga">Vihiga</option>
+            <option value="Wajir">Wajir</option>
+            <option value="West Pokot">West Pokot</option>
+         </select>
+         <p>
+         <h4>4. How satisfied were you with our service?</h4>
+         </p>
+         <form action="" method="GET">
+            <select name="selection" style="height:30px; width:130px; border-radius: 10px; vertical-align: middle;font-size: 15px;">
+               <option value="not satisfied">Not Satisfied</option>
+               <option value="satisfied">Satisfied</option>
+               <option value="very satified">Very Satisfied</option>
+            </select>
+         </form>
+         <form name="main_form" action="" method="POST">
+            <p>
+            <h4>5. Looking at the price of the Kaduda 4G phone, is the price high, low or about right?</h4>
+            </p>
+            <label for="on">Low</label>
+            <input type="radio" name="onOff" value="on" style="height:25px; width:25px; vertical-align: middle; font-size: 15px;">
+            <br>
+            <label for="on">About right</label>
+            <input type="radio" name="onOff" value="on" style="height:25px; width:25px; vertical-align: middle; font-size: 15px;">
+            <br>
+            <label for="on">High</label>
+            <input type="radio" name="onOff" value="on" style="height:25px; width:25px; vertical-align: middle; font-size: 15px;">
+            <br> 
+         </form>
+         <p>
+         <h4>6. Is this the first time you have used our service?</h4>
+         </p>
+         <select name="selection" style="height:30px; width:100px; border-radius: 10px; vertical-align: middle; font-size: 15px">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+         </select>
+         <p>
+         <h4>7. How long have you been using the product?</h4>
+         <textarea name="message" style="height:26px; width:50px; border-radius: 5px; vertical-align: middle;"></textarea>
+         <p>
+         <h4>8. If there was one new feature you could suggest, what would it be and why?</h4>
+         <textarea name="message" style="height:40px; width:300px; border-radius: 5px; vertical-align: middle;"></textarea>
+         <p>
+         <h4>Would you recommend us to a friend?</h4>
+         </p>
+         <select name="selection" style="height:30px; width:100px; vertical-align: middle; border-radius: 10px; font-size: 15px">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+         </select>
+         
+      
+      
+      </div>
+      </div>
+      <div class="submit">
+            <form>
+               <input type="submit" action= "file:///C:/Users/Farah/Desktop/Survey%20Site/Survey.html" value="Submit" />
+            </form>
+         </div>
+      
+      <div class="prof">
+
+    <div class="porto">
+       
+
+        <img src="C:\Users\Farah\Desktop\Survey\prof pic.png">
+      
+      
+       <h3 id="name">Manzoo Ahmed</h3>
+      
+      <h5>Manzoo Ahmed is a self-taught front-end developer. He primarily focuses on writing clean, elegant and efficient code. He is proficient in HTML, CSS and JavaScript. He is also a beginner in Python and Java programming.</h5>
+   
+                
+  </div>
+    </div>
+      <!-- Footer -->
+      
+      <footer class="site-footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-6">
+                  <h6>About Us</h6>
+                  
+               </div>
+               &nbsp;&nbsp;
+               <h6>Quick Links</h6>
+               <div class="footer-links">
+                  <span><strong><a href="#">About Us</a></strong></span>&nbsp;&nbsp;
+                  <span><strong><a href="#">Contact Us</a></strong></span>&nbsp;&nbsp;
+                  <span><strong><a href="#">Contribute</a></strong></span>&nbsp;&nbsp;
+                  <span><strong><a href="#">Privacy Policy</a></strong></span>&nbsp;&nbsp;
+                  <span><strong><a href="#">Sitemap</a></strong></span>
+               </div>
+            </div>
+            
+            <!-- Profile Pic -->
+            
+         </div>
+         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        <!-- Social Icons -->
+        
+         <div class="social">
+            <div class="wrapper">
+               <ul>
+                  <li class="facebook"><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                  <li class="twitter"><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                  <li class="instagram"><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                  <li class="google"><a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a></li>
+                  <li class="whatsapp"><a href="#"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
+                  <li class="telegram"><a href="#"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a></li>
+               </ul>
+            </div>
+         </div>
+         
+        <!-- Copyright Text -->
+        
+         <div class="container">
+            <div class="row">
+               <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                  <strong><a href="#">Manzoo Ahmed</a></strong>
+               </p>
+               <hr>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
